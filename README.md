@@ -15,10 +15,6 @@ git submodule update --init --recursive
 
 ## Git Pull with Submodule / Update repo including sub-repos
 ```
-git submodule update --remote --merge
-```
-or
-```
 git submodule foreach git pull origin master
 ```
 
