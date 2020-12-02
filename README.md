@@ -10,8 +10,8 @@ git submodule update --init --recursive
 # Create cache directorie
 
 # Create user local shared directories
-
 ```
+
 
 ## Git Pull with Submodule / Update repo including sub-repos
 ```
@@ -19,7 +19,6 @@ git submodule foreach git pull origin master
 ```
 
 ### Other way which may not pull master of the submodules
-```
 For the first time we can pull all submodules using
 ```
 git submodule update --init --recursive

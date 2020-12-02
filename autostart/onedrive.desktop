@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=OneDrive
+GenericName=File Synchronizer
+Comment=Sync your files across computers and to the web
+Exec=onedrive -m
+Terminal=false
+Type=Application
+Icon=onedrive
+Categories=Network;FileTransfer;
+Keywords=file;synchronization;sharing;collaboration;cloud;storage;backup;
+StartupNotify=false
