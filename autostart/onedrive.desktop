@@ -2,7 +2,7 @@
 Name=OneDrive
 GenericName=File Synchronizer
 Comment=Sync your files across computers and to the web
-Exec=onedrive -m
+Exec=onedrive --monitor
 Terminal=false
 Type=Application
 Icon=onedrive
@@ -10,4 +10,4 @@ Categories=Network;FileTransfer;
 Keywords=file;synchronization;sharing;collaboration;cloud;storage;backup;
 StartupNotify=false
 X-GNOME-Autostart-Delay=5
-
+X-GNOME-Autostart-enabled=false

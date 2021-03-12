@@ -1,0 +1,4 @@
+log_dir = "/var/log/onedrive/"
+enable_logging = "true"
+monitor_interval = "60"
+

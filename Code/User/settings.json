@@ -1,5 +1,6 @@
 {
     "markdown.preview.fontSize": 16,
     "editor.fontSize": 16,
-    "window.zoomLevel": 2.5
+    "window.zoomLevel": 2.5,
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/dave/.nvim/squashfs-root/usr/bin//nvim"
 }
