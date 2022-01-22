@@ -2,5 +2,13 @@
     "markdown.preview.fontSize": 16,
     "editor.fontSize": 16,
     "window.zoomLevel": 2.5,
-    "vscode-neovim.neovimExecutablePaths.linux": "/home/dave/.nvim/squashfs-root/usr/bin//nvim"
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/dave/.nvim/squashfs-root/usr/bin//nvim",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Solarized Light",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "hdinsight.enableSkipPysparkInstallation": false,
+    "hdinsight.previousExtensionVersion": "1.1.16",
+    "hdinsight.disableOpenSurveyLink": true,
+    "explorer.confirmDelete": false
 }
