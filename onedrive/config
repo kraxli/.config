@@ -1,4 +1,9 @@
 log_dir = "/var/log/onedrive/"
 enable_logging = "true"
-monitor_interval = "60"
-
+monitor_interval = "120"
+skip_file = "*.tmp"
+#skip_file = "~*|.~*|*.tmp|*.mp4"
+skip_dir = "Archive|Music|eBooks|*/shorts|Camera Roll|TakeOut"
+skip_dotfiles = "false"
+# skip_symlinks = "false"
+rate_limit = "1048576"

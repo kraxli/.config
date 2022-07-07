@@ -1,0 +1,8 @@
+[Service]
+Restart=on-failure
+RestartSec=3
+RestartPreventExitStatus=3
+CPUWeight=20
+CPUQuota=20%
+IOWeight=20
+MemorySwapMax=0
