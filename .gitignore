@@ -1,0 +1,92 @@
+
+Code/Cache/Cache_Data
+Code/Backups
+Code/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json
+Code/CachedData
+Code/CachedExtensionVSIXs
+Code/CachedExtensions/builtin
+Code/Code Cache
+Code/Crash Reports/client_id
+Code/Crashpad
+Code/GPUCache
+Code/Local Storage/leveldb
+Code/Service Worker
+Code/Session Storage
+Code/User/History/541e499
+Code/User/globalStorage
+Code/User/workspaceStorage
+Code/databases
+Code/exthost Crash Reports/client_id
+Code/logs
+Code/Cookies
+Code/Cookies-journal
+Code/Network Persistent State
+Code/Preferences
+Code/QuotaManager
+Code/QuotaManager-journal
+Code/TransportSecurity
+Code/languagepacks.json
+Code/machineid
+Code/rapid_render.json
+Code/storage.json
+Code Industry/Master PDF Editor 5.conf
+CosmicNvim/
+Insync/data
+Insync/live
+Insync/logs.db
+Insync/out.txt
+Insync/settings.db
+Insync/settings.db-wal
+TabNine
+caja/desktop-metadata
+calibre/global.py.json
+coc
+configstore/update-notifier-npm.json
+darktable
+dconf/user
+enchant
+envman
+evolution/sources/system-proxy.source
+fontforge/FontsOpenAtLastQuit
+fvim/config.json
+geany
+gtk-2.0/gtkfilechooser.ini
+gtk-3.0/bookmarks
+hexchat
+inkscape
+kazam/kazam.conf
+lazygit/nvim
+libreoffice/4/user
+lvim/
+lvim_*
+menus
+nemo
+nvim_*
+obs-studio
+onedrive/.config.backup
+onedrive/.config.hash
+onedrive/items.sqlite3-shm
+onedrive/items-dryrun.sqlite3
+onedrive/items-dryrun.sqlite3-shm
+onedrive/items-dryrun.sqlite3-wal
+onedrive/items.sqlite3
+onedrive/items.sqlite3-wal
+onedrive/refresh_token
+pgadmin/runtime_config.json
+pgadmin4
+pix
+pulse
+qt5ct/qt5ct.conf
+scribus
+thefuck
+vlc
+xed/accels
+xreader
+xviewer/accels
+.geoclue.conf
+Pipfile
+QtProject.conf
+cinnamon-monitors.xml
+log
+mimeapps.list
+zoomus.conf
