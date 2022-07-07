@@ -1,0 +1,225 @@
+
+
+
+n  <C-H>       * <Lua function 53>
+                 Move to left split
+n  <NL>        * <Lua function 67>
+                 Move to below split
+n  <C-K>       * <Lua function 69>
+                 Move to above split
+n  <C-L>       * <Lua function 54>
+                 Move to right split
+n  <C-Q>       * <Cmd>q!<CR>
+                 Force quit
+n  <C-S>       * :w!<CR>
+n  <C-W>Þ      * <Nop>
+n  <C-W>       * <Cmd>lua require("which-key").show("\23", {mode = "n", auto = true})<CR>
+n  <C-\>       * <Cmd>ToggleTerm<CR>
+                 Toggle terminal
+x  <Space>gÞ   * <Nop>
+x  <Space>Þ    * <Nop>
+x  <Space>     * <Cmd>lua require("which-key").show(" ", {mode = "v", auto = true})<CR>
+n  <Space>pÞ   * <Nop>
+n  <Space>lÞ   * <Nop>
+n  <Space>fÞ   * <Nop>
+n  <Space>tÞ   * <Nop>
+n  <Space>sÞ   * <Nop>
+n  <Space>gÞ   * <Nop>
+n  <Space>SÞ   * <Nop>
+n  <Space>Þ    * <Nop>
+n  <Space>     * <Cmd>lua require("which-key").show(" ", {mode = "n", auto = true})<CR>
+n  <Space>sg   * <Cmd>Telescope live_grep<CR>
+n  <Space>N    * <Cmd>tabnew<CR>
+os <Space>     * <Nop>
+n  <Space>/    * <Lua function 71>
+                 Comment line
+n  <Space>pS   * <Cmd>PackerStatus<CR>
+                 Packer Status
+n  <Space>pc   * <Cmd>PackerCompile<CR>
+                 Packer Compile
+n  <Space>tv   * <Cmd>ToggleTerm size=80 direction=vertical<CR>
+                 ToggleTerm vertical split
+n  <Space>gj   * <Lua function 70>
+                 Next git hunk
+n  <Space>gk   * <Lua function 68>
+                 Previous git hunk
+n  <Space>gl   * <Lua function 66>
+                 View git blame
+n  <Space>u    * <Lua function 65>
+                 Toggle URL Highlights
+n  <Space>gp   * <Lua function 64>
+                 Preview git hunk
+n  <Space>li   * <Cmd>LspInfo<CR>
+                 LSP information
+n  <Space>gh   * <Lua function 63>
+                 Reset git hunk
+n  <Space>sc   * <Lua function 62>
+                 Search commands
+n  <Space>gr   * <Lua function 61>
+                 Reset git buffer
+n  <Space>tt   * <Lua function 60>
+                 ToggleTerm htop
+n  <Space>gs   * <Lua function 59>
+                 Stage git hunk
+n  <Space>tp   * <Cmd>lua require('core.utils').toggle_term_cmd({cmd='ipython'})<CR>
+n  <Space>gu   * <Lua function 57>
+                 Unstage git hunk
+n  <Space>tl   * <Lua function 56>
+                 ToggleTerm lazygit
+n  <Space>w    * <Cmd>w<CR>
+                 Save
+n  <Space>e    * <Cmd>Neotree toggle<CR>
+                 Toggle Explorer
+n  <Space>th   * <Cmd>ToggleTerm size=10 direction=horizontal<CR>
+                 ToggleTerm horizontal split
+n  <Space>q    * <Cmd>q<CR>
+                 Quit
+n  <Space>o    * <Cmd>Neotree focus<CR>
+                 Focus Explorer
+n  <Space>h    * <Cmd>nohlsearch<CR>
+                 No Highlight
+n  <Space>Sl   * <Cmd>SessionManager! load_last_session<CR>
+                 Load last session
+n  <Space>Ss   * <Cmd>SessionManager! save_current_session<CR>
+                 Save this session
+n  <Space>Sd   * <Cmd>SessionManager! delete_session<CR>
+                 Delete session
+n  <Space>Sf   * <Cmd>SessionManager! load_session<CR>
+                 Search sessions
+n  <Space>S.   * <Cmd>SessionManager! load_current_dir_session<CR>
+                 Load current directory session
+n  <Space>lI   * <Cmd>LspInstallInfo<CR>
+                 LSP installer
+n  <Space>lS   * <Cmd>AerialToggle<CR>
+                 Symbols outline
+n  <Space>fw   * <Lua function 48>
+                 Search words
+n  <Space>fW   * <Lua function 47>
+                 Search words in all files
+n  <Space>gt   * <Lua function 46>
+                 Git status
+n  <Space>gb   * <Lua function 45>
+                 Git branches
+n  <Space>gc   * <Lua function 44>
+                 Git commits
+n  <Space>fn   * <Cmd>enew<CR>
+                 New File
+n  <Space>ff   * <Lua function 43>
+                 Search files
+n  <Space>fF   * <Lua function 42>
+                 Search all files
+n  <Space>fb   * <Lua function 41>
+                 Search buffers
+n  <Space>fh   * <Lua function 40>
+                 Search help
+n  <Space>fm   * <Lua function 39>
+                 Search marks
+n  <Space>fo   * <Lua function 38>
+                 Search history
+n  <Space>sb   * <Lua function 37>
+                 Git branches
+n  <Space>pi   * <Cmd>PackerInstall<CR>
+                 Packer Install
+n  <Space>sh   * <Lua function 36>
+                 Search help
+n  <Space>ps   * <Cmd>PackerSync<CR>
+                 Packer Sync
+n  <Space>sm   * <Lua function 35>
+                 Search man
+n  <Space>sn   * <Lua function 34>
+                 Search notifications
+n  <Space>sr   * <Lua function 33>
+                 Search registers
+n  <Space>pu   * <Cmd>PackerUpdate<CR>
+                 Packer Update
+n  <Space>sk   * <Lua function 32>
+                 Search keymaps
+n  <Space>d    * <Cmd>Alpha<CR>
+                 Alpha Dashboard
+n  <Space>ls   * <Lua function 31>
+                 Search symbols
+n  <Space>c    * <Cmd>Bdelete<CR>
+                 Close buffer
+n  <Space>lR   * <Lua function 30>
+                 Search references
+n  <Space>lD   * <Lua function 29>
+                 Search diagnostics
+n  <Space>gg   * <Lua function 28>
+                 ToggleTerm lazygit
+n  <Space>tn   * <Lua function 27>
+                 ToggleTerm node
+n  <Space>tu   * <Lua function 26>
+                 ToggleTerm NCDU
+n  <Space>gd   * <Lua function 12>
+                 View git diff
+n  <Space>tf   * <Cmd>ToggleTerm direction=float<CR>
+                 ToggleTerm float
+v  <Space>/    * <Esc><Cmd>lua require('Comment.api').toggle_linewise_op(vim.fn.visualmode())<CR>
+                 Toggle comment line
+   <Space>z    * <Cmd>lua require("packer.load")({'telekasten.nvim'}, { keys = "<leader>z", prefix = "" }, _G.packer_plugins)<CR>
+ov <Space>gd   * <Cmd>lua require("packer.load")({'diffview.nvim'}, { keys = "<leader>gd", prefix = "" }, _G.packer_plugins)<CR>
+n  "           * <Cmd>lua require("which-key").show("\"", {mode = "n", auto = true})<CR>
+n  '           * <Cmd>lua require("which-key").show("'", {mode = "n", auto = true})<CR>
+n  <Þ          * <Nop>
+n  <           * <Cmd>lua require("which-key").show("<", {mode = "n", auto = true})<CR>
+n  <b          * <Cmd>BufferLineMovePrev<CR>
+                 Move buffer tab left
+v  <           * <gv
+                 unindent line
+n  >Þ          * <Nop>
+n  >           * <Cmd>lua require("which-key").show(">", {mode = "n", auto = true})<CR>
+n  >b          * <Cmd>BufferLineMoveNext<CR>
+                 Move buffer tab right
+v  >           * >gv
+                 indent line
+n  @Þ          * <Nop>
+n  @           * <Cmd>lua require("which-key").show("@", {mode = "n", auto = true})<CR>
+n  H           * <Cmd>BufferLineCyclePrev<CR>
+                 Previous buffer tab
+n  L           * <Cmd>BufferLineCycleNext<CR>
+                 Next buffer tab
+n  Q           * <Nop>
+n  Y           * y$
+n  [Þ          * <Nop>
+n  [           * <Cmd>lua require("which-key").show("[", {mode = "n", auto = true})<CR>
+n  ]Þ          * <Nop>
+n  ]           * <Cmd>lua require("which-key").show("]", {mode = "n", auto = true})<CR>
+n  `           * <Cmd>lua require("which-key").show("`", {mode = "n", auto = true})<CR>
+x  aÞ          * <Nop>
+x  a           * <Cmd>lua require("which-key").show("a", {mode = "v", auto = true})<CR>
+x  gÞ          * <Nop>
+x  g           * <Cmd>lua require("which-key").show("g", {mode = "v", auto = true})<CR>
+n  gÞ          * <Nop>
+n  g           * <Cmd>lua require("which-key").show("g", {mode = "n", auto = true})<CR>
+n  gx          * <Lua function 55>
+                 Open the file under cursor with system app
+   gb          * <Cmd>lua require("packer.load")({'Comment.nvim'}, { keys = "gb", prefix = "" }, _G.packer_plugins)<CR>
+   gc          * <Cmd>lua require("packer.load")({'Comment.nvim'}, { keys = "gc", prefix = "" }, _G.packer_plugins)<CR>
+   g<          * <Cmd>lua require("packer.load")({'Comment.nvim'}, { keys = "g<", prefix = "" }, _G.packer_plugins)<CR>
+   g>          * <Cmd>lua require("packer.load")({'Comment.nvim'}, { keys = "g>", prefix = "" }, _G.packer_plugins)<CR>
+x  iÞ          * <Nop>
+x  i           * <Cmd>lua require("which-key").show("i", {mode = "v", auto = true})<CR>
+x  sÞ          * <Nop>
+x  s           * <Cmd>lua require("which-key").show("s", {mode = "v", auto = true})<CR>
+n  sÞ          * <Nop>
+n  s           * <Cmd>lua require("which-key").show("s", {mode = "n", auto = true})<CR>
+n  srb           <Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)
+x  sr            <Plug>(operator-sandwich-replace)
+n  sr            <Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)
+n  sdb           <Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)
+x  sd            <Plug>(operator-sandwich-delete)
+n  sd            <Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)
+o  sa            <Plug>(operator-sandwich-add)
+x  sa            <Plug>(operator-sandwich-add)
+n  sa            <Plug>(operator-sandwich-add)
+n  zÞ          * <Nop>
+n  z           * <Cmd>lua require("which-key").show("z", {mode = "n", auto = true})<CR>
+n  <C-Up>      * <Lua function 52>
+                 Resize split up
+n  <C-Down>    * <Lua function 51>
+                 Resize split down
+n  <C-Left>    * <Lua function 50>
+                 Resize split left
+n  <C-Right>   * <Lua function 49>
+                 Resize split right
+n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_directory(vim.fn.expand("%:p"))<CR>
