@@ -1,10 +1,16 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/dave/.config
+- /home/dave/.config/astronvim
+- /home/dave/.config/astronvim.bak
+- /home/dave/OneDrive/02_insurance/00_SummerSchools_Trainings/ml_insurance_lausanne-2022
+- /home/dave/.config/astroNvim-config-mh-plus_sandbox
 - /home/dave/.config/nvim/lua/user
 - /home/dave/.config/nvim
-- /home/dave/.config/nvim_pr
 - /home/dave/OneDrive/03_coding/01_Python/00_py-references
+- /home/dave/.config
+- /home/dave/.config/astroNvim-config-mh-plus_sandbox/lua/user
+- /home/dave/.config/nvim_myAstroNvim_20220707
+- /home/dave/.config/nvim_pr
 - /home/dave/.config/nvim_sandbox
 - /home/dave/.config/lvim
 - /home/dave/.config/lvim/lua/local

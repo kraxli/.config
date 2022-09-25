@@ -89,12 +89,13 @@ promptToReturnFromSubprocess: true # display confirmation when subprocess termin
 keybinding:
   universal:
     quit: 'q'
-    quit-alt1: '<c-c>' # alternative/alias of quit
+    quit-alt1: '<c-q>' # alternative/alias of quit
     return: '<backspace>' # return to previous menu, will quit if there's nowhere to return
-    return-alt1: '<c-q>' # return to previous menu, will quit if there's nowhere to return
+    return-alt1: '<c-c>' # return to previous menu, will quit if there's nowhere to return
     return-alt2: '<c-backspace>' # return to previous menu, will quit if there's nowhere to return
     return-alt3: 'X' # return to previous menu, will quit if there's nowhere to return
     return-alt4: '<c-x>' # return to previous menu, will quit if there's nowhere to return
+    return-alt5: '<F2>' # return to previous menu, will quit if there's nowhere to return
     quitWithoutChangingDirectory: 'Q'
     togglePanel: '<tab>' # goto the next panel
     prevItem: '<up>' # go one line up
